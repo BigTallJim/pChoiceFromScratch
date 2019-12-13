@@ -17,3 +17,4 @@ As a user
 I want to select an offer
 So that I can view the details on PartnerLink
 ```
+
