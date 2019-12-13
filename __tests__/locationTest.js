@@ -1,4 +1,8 @@
+const fs = require('fs');
+const path = require('path');
+const html = fs.readFileSync(path.resolve(__dirname, '../location.html'), 'utf8');
+
+console.log(html);
 test('title of component is Location', () => {
-    const location = require('../location.js')
-    expect(location).toMatchSnapshop();
-  });
+    expect(html).toContain("Location");
+});
