@@ -6,3 +6,6 @@ console.log(html);
 test('title of component is Location', () => {
     expect(html).toContain("Location");
 });
+test('title of component is Location', () => {
+    expect(html).toContain("London");
+});
